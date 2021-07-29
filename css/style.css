@@ -1,0 +1,237 @@
+/* common css or uitilities */
+body {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.color-light-orange {
+    color: #E76F51;
+}
+
+.bg-light-orange {
+    background-color: #E76F51;
+}
+
+.color-dark-blue {
+    color: #0D0925;
+}
+
+.section-title {
+    font-size: 48px;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+}
+
+/*======================================= header section starts from here =======================================*/
+.banner-section {
+    background-color: #264653;
+}
+
+.navbar-nav li {
+    color: white;
+}
+
+.navbar-nav li a {
+    color: white;
+    margin-right: 36px;
+    font-family: poppins, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.login-btn {
+    margin-left: 100px;
+}
+
+.login-btn a {
+    font-size: 16px;
+    font-family: poppins, sans-serif;
+    font-weight: 500;
+}
+
+.banner-text {
+    font-family: poppins, sans-serif;
+}
+
+.banner-text small {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.banner-text p {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.banner-text h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+
+.banner-bike:hover {
+    transform: scale(1.030) translate(-15px);
+    transition: 0.4s ease;
+}
+
+/*======================================= header section ends from here =======================================*/
+
+
+
+
+/*======================================= main section starts from here =======================================*/
+/* featured bikes section starts from here */
+.fetured-bikes-section {
+    margin: 60px 0;
+}
+
+.featured-section-title p {
+    font-size: 14px;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+}
+
+.gray-scale-img {
+    filter: grayscale(100%);
+}
+
+/* featured bikes section ends from here */
+
+
+/* latest news section starts from here */
+.latest-news-section {
+    margin: 100px 0;
+}
+
+.card-title {
+    font-size: 24px;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+}
+
+.card-text {
+    text-align: justify;
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+.read-more-btn {
+    font-family: poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #E76F51;
+    color: #E76F51;
+}
+
+.read-more-btn:hover {
+    color: white;
+    background: #E76F51;
+    transition: 0.4s ease;
+}
+
+/* latest news section ends from here */
+
+
+/* happy clients section starts from here */
+.client-img {
+    width: 149px;
+    height: 149px;
+}
+
+.card-style i {
+    font-size: 18px;
+}
+
+.client-say {
+    color: #6C6C6C;
+    font-size: 16px;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+}
+
+.client-info {
+    font-size: 14px;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+}
+
+/* happy clients section ends from here */
+
+
+/* faq section starts from here */
+.faq-section {
+    margin: 120px 0;
+}
+
+.accordion-title {
+    font-family: inter, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* faq section ends from here */
+
+
+
+/* carousel section starts from here */
+
+.carousel {
+    background-color: #eeeeee;
+}
+
+/* carousel section ends from here */
+
+
+
+/* login section starts from here */
+.login-section {
+    margin-top: 100px;
+}
+
+.login-section h2 {
+    font-size: 38px;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+}
+
+.login-section p {
+    font-size: 16px;
+    font-family: poppins, sans-serif;
+    font-weight: 500;
+}
+
+/* login section ends from here */
+
+
+/*======================================= main section ends from here =======================================*/
+
+
+
+
+/*======================================= footer section starts from here =======================================*/
+.footer-section {
+    background-color: #0B0D17;
+    padding-top: 56px;
+    padding-bottom: 80px;
+    font-family: manrope, sans-serif;
+    margin-top: 120px;
+}
+
+.footer-section a {
+    color: #D9DBE1;
+    margin-right: 24px;
+}
+
+.footer-section img {
+    width: 135px;
+}
+
+.footer-section h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #D9DBE1;
+}
+
+/*======================================= footer section ends from here =======================================*/
