@@ -21,8 +21,28 @@
 
 <body>
     <!--==================================== header section starts from here ====================================-->
-    <header>
+    <header id="home">
         <section class="banner-section">
+            <!-- navbar section starts form here -->
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#home">HondaHut</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span><i class="fa-solid fa-bars res-bar"></i></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ms-auto">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                            <a class="nav-link" href="#bikes">Bikes</a>
+                            <a class="nav-link" href="#latest">Latest Bikes</a>
+                            <a class="nav-link" href="#faq">FAQ</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- navbar section ends form here -->
             <!-- banner area -->
             <div class="container p-5">
                 <div class="row gy-3">
@@ -81,7 +101,7 @@
     <main>
         <!-- Fetured Bikes section starts from here -->
         <article>
-            <section class="fetured-bikes-section">
+            <section id="bikes" class="fetured-bikes-section">
                 <div class="container">
                     <div class="text-center featured-section-title mb-5">
                         <h1 class="section-title color-dark-blue">Fetured Bikes 2021</h1>
@@ -105,7 +125,7 @@
 
         <!-- latest news section starts from here -->
         <article>
-            <section class="latest-news-section">
+            <section id="latest" class="latest-news-section">
                 <div class="container">
                     <h1 class="section-title color-dark-blue text-center">Latest News</h1>
                     <div class="row mt-5 gy-5">
@@ -229,7 +249,7 @@
 
         <!-- faq section starts from here -->
         <article>
-            <section class="faq-section">
+            <section id="faq" class="faq-section">
                 <div class="container">
                     <h1 class="section-title color-dark-blue text-center">Frequently Asked <span
                             class="color-light-orange">Questions</span></h1>

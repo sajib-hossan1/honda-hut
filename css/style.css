@@ -25,6 +25,43 @@ body {
 }
 
 /*======================================= header section starts from here =======================================*/
+/* navbar section starts */
+.navbar {
+    background: transparent !important;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.438);
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.navbar-nav a {
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.navbar-nav a:hover {
+    color: rgba(255, 255, 255, 0.492);
+}
+
+.res-bar {
+    color: white;
+    font-size: 25px;
+}
+
+@media screen and (max-width : 992px) {
+    .navbar-nav {
+        background-color: #ec6d4d;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
+
+/* navbar section ends */
+
 .banner-section {
     background-color: #264653;
 }
